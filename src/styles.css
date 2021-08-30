@@ -46,3 +46,8 @@ a.info-btn:hover {
   background-color: #cec2b8;
   border-color: var(--btn-color);
 }
+.homepage-pic {
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+s}
