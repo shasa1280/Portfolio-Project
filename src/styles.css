@@ -9,6 +9,7 @@ font-family: "Pacifico", cursive;*/
 }
 body {
   background-color: var(--bg-color);
+  font-style: var(--subtitle-font-family);
 }
 .homepage-title p {
   font-family: "Overlock", cursive;
