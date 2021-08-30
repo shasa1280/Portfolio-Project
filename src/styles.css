@@ -1,19 +1,47 @@
 /*font-family: "Kameron", serif;
 font-family: "Overlock", cursive;
 font-family: "Pacifico", cursive;*/
+:root {
+  --bg-color: #cec2b8;
+  --btn-color: #84754e;
+  --heading-font-family: "Pacifico", cursive;
+  --subtitle-font-family: "Kameron", serif;
+}
 body {
-  background-color: #f0ddd7;
+  background-color: var(--bg-color);
 }
+.homepage-title p {
+  font-family: "Overlock", cursive;
+  font-size: 24px;
+  margin: 0;
+}
+
 h1 {
-  text-align: center;
-  font-family: "Pacifico", cursive;
-  font-size: 50px;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
 }
-h2 {
+.homepage-title h2 {
   text-align: center;
-  font-family: "Overlock", cursive;
+  font-family: var(--subtitle-font-family);
+  font-size: 36px;
 }
-h3 {
-  font-family: "Overlock", cursive;
+
+.homepage-title {
+  background-color: #f0ddd7;
   text-align: center;
+  padding: 160px 20px;
+}
+
+.info-btn {
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  border-radius: 1px;
+  font-family: "Kameron", serif;
+  margin: 10px;
+  padding: 12px 20px;
+}
+a.info-btn:hover {
+  color: black;
+  background-color: #cec2b8;
+  border-color: var(--btn-color);
 }
