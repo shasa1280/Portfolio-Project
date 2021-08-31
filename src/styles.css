@@ -62,11 +62,22 @@ a.info-btn:hover {
   font-family: var(--subtitle-font-family);
   padding: 40px 100px;
 }
+
+.shecodes-link {
+  color: black;
+}
+a.shecodes-link:hover {
+  color: black;
+}
 .credit {
   font-size: 5px;
 }
 .social-media {
-  padding: 10px;
-  max-width: 10%;
-  height: auto;
+  padding: 20px;
+  max-width: 10px;
+  height: 10px;
+}
+.social-media-header {
+  font-size: 32px;
+  font-family: var(--heading-font-family);
 }
