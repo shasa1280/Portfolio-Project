@@ -47,18 +47,28 @@ a.info-btn:hover {
   background-color: #cec2b8;
   border-color: var(--btn-color);
 }
-.homepage-pic {
+.homepage-image {
   max-width: 500px;
   margin-bottom: 10px;
   margin-top: 10px;
-}
-img {
   border-radius: 1000px;
 }
+
 .about-p {
   background-color: #f0ddd7;
   font-size: 18px;
   line-height: 31px;
   font-family: var(--subtitle-font-family);
   padding: 40px 100px;
+}
+.credit {
+  font-size: 5px;
+}
+.social-media {
+  max-width: 20;
+  padding: 20px;
+  block-size: 10px;
+}
+img {
+  max-width: 10;
 }
