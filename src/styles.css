@@ -9,12 +9,12 @@ font-family: "Pacifico", cursive;*/
 }
 body {
   background-color: var(--bg-color);
-  font-style: var(--subtitle-font-family);
 }
 
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  text-align: center;
 }
 .homepage-title p {
   font-family: "Overlock", cursive;
@@ -55,7 +55,10 @@ a.info-btn:hover {
 img {
   border-radius: 1000px;
 }
-
 .about-p {
-  background-color: #718085;
+  background-color: #f0ddd7;
+  font-size: 18px;
+  line-height: 31px;
+  font-family: var(--subtitle-font-family);
+  padding: 40px 100px;
 }
