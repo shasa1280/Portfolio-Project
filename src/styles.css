@@ -11,16 +11,17 @@ body {
   background-color: var(--bg-color);
   font-style: var(--subtitle-font-family);
 }
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
 .homepage-title p {
   font-family: "Overlock", cursive;
   font-size: 24px;
   margin: 0;
 }
 
-h1 {
-  font-family: var(--heading-font-family);
-  font-size: 96px;
-}
 .homepage-title h2 {
   text-align: center;
   font-family: var(--subtitle-font-family);
