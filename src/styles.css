@@ -2,7 +2,7 @@
 font-family: "Overlock", cursive;
 font-family: "Pacifico", cursive;*/
 :root {
-  --bg-color: #cec2b8
+  --bg-color: #cec2b8;
   --btn-color: #84754e;
   --heading-font-family: "Pacifico", cursive;
   --subtitle-font-family: "Kameron", serif;
@@ -61,6 +61,14 @@ a.info-btn:hover {
   line-height: 31px;
   font-family: var(--subtitle-font-family);
   padding: 40px 100px;
+}
+.contact-me{
+  background-color: #f0ddd7;
+  font-size: 18px;
+  line-height: 31px;
+  font-family: var(--subtitle-font-family);
+  padding: 40px 100px;
+}
 }
 
 .about-link {
