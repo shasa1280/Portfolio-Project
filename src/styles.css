@@ -95,5 +95,9 @@ a.about-link:hover {
 .coder-at-work{
   text-align: center;
   font-family: var(--subtitle-font-family);
+  background-color: #f0ddd7;
+  font-size: 18px;
+  line-height: 31px;
+  padding: 40px 100px;
 
 }
