@@ -69,7 +69,6 @@ a.info-btn:hover {
   font-family: var(--subtitle-font-family);
   padding: 40px 100px;
 }
-}
 
 .about-link {
   color: black;
@@ -92,4 +91,7 @@ a.about-link:hover {
   font-family: var(--heading-font-family);
   line-height: 20px;
   margin: 10px 0px 5px 10px;
+}
+.coder-at-work{
+  text-align: center;
 }
